@@ -1,0 +1,90 @@
+assay information
+assay class members: list
+assay class members: count
+chemical structure to URI: InChI
+chemical structure to URI: InChIKey
+chemical structure to URI: SMILES
+Exact structure search
+Similarity search
+Substructure search
+compound information
+compound information batch
+compound classifications
+classification of targets for compound
+compound class members: count
+compound class members: list
+compound pharmacology: count
+compound pharmacology: list
+Compound Class Pharmacology: count
+Compound Class Pharmacology: list
+Hierarchies: Root Nodes
+Hierarchies: Root enzyme
+Hierarchies: Root chembl
+Hierarchies: Root chebi
+Hierarchies: Root go
+Hierarchies: Child Nodes
+Hierarchies: Parent Nodes
+Concept Description
+Free Text to Concept for Semantic Tag
+Free Text to Concept
+Data Sources
+Disease Information
+Associations for Disease: List
+Associations for Disease: Count
+Associations for Target: List
+Associations for Target: Count
+Disease Information: Batch
+Diseases for Target: List
+Diseases for Target: Count
+Targets for Disease: List
+Targets for Disease: Count
+Map URL
+Pathway Information
+Pathway Information: Get Compounds
+Pathway Information: Get Publications
+Pathway Information: Get Targets
+Pathways: List
+Pathways for Compound: List
+Pathways for Compound: Count
+Pathways for Publication: List
+Pathways for Publication: Count
+Pathways for Target: List
+Pathways for Target: Count
+Pathways: Count
+Pathway Organisms
+Activity Types: List
+Activity Types: Count
+Activity Units: Count
+Activity Units: List
+Target Information
+Target Information: Batch
+Target Classifications
+Target Classifications Tree: chembl
+Target Classifications Tree: enzyme
+Target Classifications Tree: go
+Classification of Compounds for Target
+Target Class Members: Count
+Target Class Members: List
+Target Pharmacology: Count
+Target Pharmacology: List
+Target Class Pharmacology: Count
+Target Class Pharmacology: List
+Target Types
+Tissue Information
+Tissue Information: Batch
+Tissues for Protein: List
+Tissues for Protein: Count
+Proteins for Tissue: List
+Proteins for Tissue: Count
+Patent Information
+Patents for Compound: List
+Patents for Compound: Count
+Patents for Disease: List
+Patents for Disease: Count
+Patents for Target: List
+Patents for Target: Count
+Patent Entities: Count
+Patent Entities: List
+Pathway Information: Get Interactions
+Pathway Interactions for Entity: List
+Pathway Interactions for Entity: Count

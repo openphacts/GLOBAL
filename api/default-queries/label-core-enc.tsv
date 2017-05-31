@@ -1,0 +1,90 @@
+assay information	/assay?uri=http%3A%2F%2Fopeninnovation.lilly.com%2Fbioassay%2329
+assay class members: list	/assay/members/count?uri=http%3A%2F%2Fwww.bioassayontology.org%2Fbao%23BAO_0000219
+assay class members: count	/assay/members/pages?uri=http%3A%2F%2Fwww.bioassayontology.org%2Fbao%23BAO_0000219
+chemical structure to URI: InChI	/structure?inchi=InChI%3D1S%2FC9H8O4%2Fc1-6(10)13-8-5-3-2-4-7(8)9(11)12%2Fh2-5H%2C1H3%2C(H%2C11%2C12)
+chemical structure to URI: InChIKey	/structure?inchi_key=BSYNRYMUTXBXSQ-UHFFFAOYSA-N
+chemical structure to URI: SMILES	/structure?smiles=CC(%3DO)Oc1ccccc1C(%3DO)O
+Exact structure search	/structure/exact?searchOptions.Molecule=CNC(%3DO)c1cc(ccn1)Oc2ccc(cc2)NC(%3DO)Nc3ccc(c(c3)C(F)(F)F)Cl&searchOptions.MatchType=0
+Similarity search	/structure/similarity?searchOptions.Molecule=CC(%3DO)Oc1ccccc1C(%3DO)O&searchOptions.SimilarityType=0&searchOptions.Threshold=0.95
+Substructure search	/structure/substructure?searchOptions.Molecule=CC(%3DO)Oc1ccccc1C(%3DO)O&searchOptions.MolType=0
+compound information	/compound?uri=http%3A%2F%2Fwww.conceptwiki.org%2Fconcept%2F38932552-111f-4a4e-a46a-4ed1d7bdf9d5
+compound information batch	/compound/batch?uri_list=http%3A%2F%2Fwww.conceptwiki.org%2Fconcept%2F38932552-111f-4a4e-a46a-4ed1d7bdf9d5%7Chttp%3A%2F%2Fwww.conceptwiki.org%2Fconcept%2Fdd758846-1dac-4f0d-a329-06af9a7fa413
+compound classifications	/compound/classifications?uri=http%3A%2F%2Fwww.conceptwiki.org%2Fconcept%2F38932552-111f-4a4e-a46a-4ed1d7bdf9d5
+classification of targets for compound	/compound/classificationsForTargets?uri=http%3A%2F%2Fops.rsc.org%2FOPS6958
+compound class members: count	/compound/members/count?uri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCHEBI_24431
+compound class members: list	/compound/members/pages?uri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCHEBI_24431
+compound pharmacology: count	/compound/pharmacology/count?uri=http%3A%2F%2Fwww.conceptwiki.org%2Fconcept%2F38932552-111f-4a4e-a46a-4ed1d7bdf9d5
+compound pharmacology: list	/compound/pharmacology/pages?uri=http%3A%2F%2Fwww.conceptwiki.org%2Fconcept%2F38932552-111f-4a4e-a46a-4ed1d7bdf9d5
+Compound Class Pharmacology: count	/compound/tree/pharmacology/count?uri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCHEBI_100
+Compound Class Pharmacology: list	/compound/tree/pharmacology/pages?uri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCHEBI_100
+Hierarchies: Root Nodes	/tree
+Hierarchies: Root enzyme	/tree?root=enzyme
+Hierarchies: Root chembl	/tree?root=chembl
+Hierarchies: Root chebi	/tree?root=chebi
+Hierarchies: Root go	/tree?root=go
+Hierarchies: Child Nodes	/tree/children?uri=http%3A%2F%2Fpurl.uniprot.org%2Fenzyme%2F6.2.-.-
+Hierarchies: Parent Nodes	/tree/parents?uri=http%3A%2F%2Fpurl.uniprot.org%2Fenzyme%2F6.2.-.-
+Concept Description	/getConceptDescription?uuid=8e3a87ae-345d-4c25-bd7a-5b3221c6e3fa
+Free Text to Concept for Semantic Tag	/search/byTag?q=aspirin&uuid=07a84994-e464-4bbf-812a-a4b96fa3d197
+Free Text to Concept	/search/freetext?q=aspirin
+Data Sources	/sources
+Disease Information	/disease?uri=http%3A%2F%2Flinkedlifedata.com%2Fresource%2Fumls%2Fid%2FC0004238
+Associations for Disease: List	/disease/assoc/byDisease?uri=http%3A%2F%2Flinkedlifedata.com%2Fresource%2Fumls%2Fid%2FC0004238
+Associations for Disease: Count	/disease/assoc/byDisease/count?uri=http%3A%2F%2Flinkedlifedata.com%2Fresource%2Fumls%2Fid%2FC0004238
+Associations for Target: List	/disease/assoc/byTarget?uri=http%3A%2F%2Fpurl.uniprot.org%2Funiprot%2FQ9Y5Y9
+Associations for Target: Count	/disease/assoc/byTarget/count?uri=http%3A%2F%2Fpurl.uniprot.org%2Funiprot%2FQ9Y5Y9
+Disease Information: Batch	/disease/batch?uri_list=http%3A%2F%2Flinkedlifedata.com%2Fresource%2Fumls%2Fid%2FC0004238%7Chttp%3A%2F%2Flinkedlifedata.com%2Fresource%2Fumls%2Fid%2FC0018794
+Diseases for Target: List	/disease/byTarget?uri=http%3A%2F%2Fpurl.uniprot.org%2Funiprot%2FQ9Y5Y9
+Diseases for Target: Count	/disease/byTarget/count?uri=http%3A%2F%2Fpurl.uniprot.org%2Funiprot%2FQ9Y5Y9
+Targets for Disease: List	/disease/getTargets?uri=http%3A%2F%2Flinkedlifedata.com%2Fresource%2Fumls%2Fid%2FC0004238
+Targets for Disease: Count	/disease/getTargets/count?uri=http%3A%2F%2Flinkedlifedata.com%2Fresource%2Fumls%2Fid%2FC0004238
+Map URL	/mapUri?Uri=http%3A%2F%2Flinkedlifedata.com%2Fresource%2Fumls%2Fid%2FC0004238
+Pathway Information	/pathway?uri=http%3A%2F%2Fidentifiers.org%2Fwikipathways%2FWP1019
+Pathway Information: Get Compounds	/pathway/getCompounds?uri=http%3A%2F%2Fidentifiers.org%2Fwikipathways%2FWP1002
+Pathway Information: Get Publications	/pathway/getReferences?uri=http%3A%2F%2Fidentifiers.org%2Fwikipathways%2FWP1015
+Pathway Information: Get Targets	/pathway/getTargets?uri=http%3A%2F%2Fidentifiers.org%2Fwikipathways%2FWP1008
+Pathways: List	/pathways
+Pathways for Compound: List	/pathways/byCompound?uri=http%3A%2F%2Fwww.conceptwiki.org%2Fconcept%2F83931753-9e3f-4e90-b104-e3bcd0b4d833
+Pathways for Compound: Count	/pathways/byCompound/count?uri=http%3A%2F%2Fwww.conceptwiki.org%2Fconcept%2F83931753-9e3f-4e90-b104-e3bcd0b4d833
+Pathways for Publication: List	/pathways/byReference?uri=http%3A%2F%2Fidentifiers.org%2Fpubmed%2F14769483
+Pathways for Publication: Count	/pathways/byReference/count?uri=http%3A%2F%2Fidentifiers.org%2Fpubmed%2F14769483
+Pathways for Target: List	/pathways/byTarget?uri=http%3A%2F%2Fidentifiers.org%2Fncbigene%2F282478
+Pathways for Target: Count	/pathways/byTarget/count?uri=http%3A%2F%2Fidentifiers.org%2Fncbigene%2F282478
+Pathways: Count	/pathways/count
+Pathway Organisms	/pathways/organisms
+Activity Types: List	/pharmacology/filters/activities?activity_unit=centimeter
+Activity Types: Count	/pharmacology/filters/activities/count?activity_unit=centimeter
+Activity Units: Count	/pharmacology/filters/units/count
+Activity Units: List	/pharmacology/filters/units/pages
+Target Information	/target?uri=http%3A%2F%2Fwww.conceptwiki.org%2Fconcept%2F00059958-a045-4581-9dc5-e5a08bb0c291
+Target Information: Batch	/target/batch?uri_list=http%3A%2F%2Fwww.conceptwiki.org%2Fconcept%2F00059958-a045-4581-9dc5-e5a08bb0c291%7Chttp%3A%2F%2Fwww.conceptwiki.org%2Fconcept%2F7b21c06f-0343-4fcc-ab0f-a74ffe871ade
+Target Classifications	/target/classifications?uri=http%3A%2F%2Fpurl.uniprot.org%2Funiprot%2FP14756
+Target Classifications Tree: chembl	/target/classifications?uri=http%3A%2F%2Fpurl.uniprot.org%2Funiprot%2FP14756&tree=chembl
+Target Classifications Tree: enzyme	/target/classifications?uri=http%3A%2F%2Fpurl.uniprot.org%2Funiprot%2FP14756&tree=enzyme
+Target Classifications Tree: go	/target/classifications?uri=http%3A%2F%2Fpurl.uniprot.org%2Funiprot%2FP14756&tree=go
+Classification of Compounds for Target	/target/classificationsForCompounds?uri=http%3A%2F%2Fpurl.uniprot.org%2Funiprot%2FP00918
+Target Class Members: Count	/target/members/count?uri=http%3A%2F%2Fpurl.uniprot.org%2Fenzyme%2F6.2.-.-
+Target Class Members: List	/target/members/pages?uri=http%3A%2F%2Fpurl.uniprot.org%2Fenzyme%2F6.2.-.-
+Target Pharmacology: Count	/target/pharmacology/count?uri=http%3A%2F%2Fwww.conceptwiki.org%2Fconcept%2F00059958-a045-4581-9dc5-e5a08bb0c291
+Target Pharmacology: List	/target/pharmacology/pages?uri=http%3A%2F%2Fwww.conceptwiki.org%2Fconcept%2F00059958-a045-4581-9dc5-e5a08bb0c291
+Target Class Pharmacology: Count	/target/tree/pharmacology/count?uri=http%3A%2F%2Fpurl.uniprot.org%2Fenzyme%2F6.2.-.-
+Target Class Pharmacology: List	/target/tree/pharmacology/pages?uri=http%3A%2F%2Fpurl.uniprot.org%2Fenzyme%2F6.2.-.-
+Target Types	/target/types
+Tissue Information	/tissue?uri=ftp%3A%2F%2Fftp.nextprot.org%2Fpub%2Fcurrent_release%2Fcontrolled_vocabularies%2Fcaloha.obo%23TS-0171
+Tissue Information: Batch	/tissue/batch?uri_list=ftp%3A%2F%2Fftp.nextprot.org%2Fpub%2Fcurrent_release%2Fcontrolled_vocabularies%2Fcaloha.obo%23TS-0171%7Cftp%3A%2F%2Fftp.nextprot.org%2Fpub%2Fcurrent_release%2Fcontrolled_vocabularies%2Fcaloha.obo%23TS-0173
+Tissues for Protein: List	/tissue/byProtein?uri=http%3A%2F%2Fpurl.uniprot.org%2Funiprot%2FP55795
+Tissues for Protein: Count	/tissue/byProtein/count?uri=http%3A%2F%2Fpurl.uniprot.org%2Funiprot%2FP55795
+Proteins for Tissue: List	/tissue/getProteins?uri=ftp%3A%2F%2Fftp.nextprot.org%2Fpub%2Fcurrent_release%2Fcontrolled_vocabularies%2Fcaloha.obo%23TS-0016
+Proteins for Tissue: Count	/tissue/getProteins/count?uri=ftp%3A%2F%2Fftp.nextprot.org%2Fpub%2Fcurrent_release%2Fcontrolled_vocabularies%2Fcaloha.obo%23TS-0016
+Patent Information	/patent?uri=http%3A%2F%2Frdf.ebi.ac.uk%2Fresource%2Fsurechembl%2Fpatent%2FEP-1339685-A2
+Patents for Compound: List	/patent/byCompound?uri=http%3A%2F%2Frdf.ebi.ac.uk%2Fresource%2Fsurechembl%2Fmolecule%2FSCHEMBL1325
+Patents for Compound: Count	/patent/byCompound/count?uri=http%3A%2F%2Frdf.ebi.ac.uk%2Fresource%2Fsurechembl%2Fmolecule%2FSCHEMBL1325
+Patents for Disease: List	/patent/byDisease?uri=http%3A%2F%2Frdf.ebi.ac.uk%2Fresource%2Fsurechembl%2Findication%2FD002561
+Patents for Disease: Count	/patent/byDisease/count?uri=http%3A%2F%2Frdf.ebi.ac.uk%2Fresource%2Fsurechembl%2Findication%2FD002561
+Patents for Target: List	/patent/byTarget?uri=http%3A%2F%2Frdf.ebi.ac.uk%2Fresource%2Fsurechembl%2Ftarget%2FHMGCS1
+Patents for Target: Count	/patent/byTarget/count?uri=http%3A%2F%2Frdf.ebi.ac.uk%2Fresource%2Fsurechembl%2Ftarget%2FHMGCS1
+Patent Entities: Count	/patent/entities/count?uri=http%3A%2F%2Frdf.ebi.ac.uk%2Fresource%2Fsurechembl%2Fpatent%2FEP-1339685-A2
+Patent Entities: List	/patent/entities/pages?uri=http%3A%2F%2Frdf.ebi.ac.uk%2Fresource%2Fsurechembl%2Fpatent%2FEP-1339685-A2
+Pathway Information: Get Interactions	/pathway/getInteractions?uri=http%3A%2F%2Fidentifiers.org%2Fwikipathways%2FWP1015
+Pathway Interactions for Entity: List	/pathways/interactions/byEntity?uri=http%3A%2F%2Fidentifiers.org%2Fensembl%2FENSBTAG00000004037
+Pathway Interactions for Entity: Count	/pathways/interactions/byEntity/count?uri=http%3A%2F%2Fidentifiers.org%2Fensembl%2FENSBTAG00000004037

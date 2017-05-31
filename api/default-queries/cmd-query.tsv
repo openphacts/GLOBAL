@@ -1,0 +1,90 @@
+/assay	uri=http://openinnovation.lilly.com/bioassay#29
+/assay/members/count	uri=http://www.bioassayontology.org/bao#BAO_0000219
+/assay/members/pages	uri=http://www.bioassayontology.org/bao#BAO_0000219
+/structure	inchi=InChI=1S/C9H8O4/c1-6(10)13-8-5-3-2-4-7(8)9(11)12/h2-5H	1H3	(H	11	12)
+/structure	inchi_key=BSYNRYMUTXBXSQ-UHFFFAOYSA-N
+/structure	smiles=CC(=O)Oc1ccccc1C(=O)O
+/structure/exact	searchOptions.Molecule=CNC(=O)c1cc(ccn1)Oc2ccc(cc2)NC(=O)Nc3ccc(c(c3)C(F)(F)F)Cl&searchOptions.MatchType=0
+/structure/similarity	searchOptions.Molecule=CC(=O)Oc1ccccc1C(=O)O&searchOptions.SimilarityType=0&searchOptions.Threshold=0.95
+/structure/substructure	searchOptions.Molecule=CC(=O)Oc1ccccc1C(=O)O&searchOptions.MolType=0
+/compound	uri=http://www.conceptwiki.org/concept/38932552-111f-4a4e-a46a-4ed1d7bdf9d5
+/compound/batch	uri_list=http://www.conceptwiki.org/concept/38932552-111f-4a4e-a46a-4ed1d7bdf9d5|http://www.conceptwiki.org/concept/dd758846-1dac-4f0d-a329-06af9a7fa413
+/compound/classifications	uri=http://www.conceptwiki.org/concept/38932552-111f-4a4e-a46a-4ed1d7bdf9d5
+/compound/classificationsForTargets	uri=http://ops.rsc.org/OPS6958
+/compound/members/count	uri=http://purl.obolibrary.org/obo/CHEBI_24431
+/compound/members/pages	uri=http://purl.obolibrary.org/obo/CHEBI_24431
+/compound/pharmacology/count	uri=http://www.conceptwiki.org/concept/38932552-111f-4a4e-a46a-4ed1d7bdf9d5
+/compound/pharmacology/pages	uri=http://www.conceptwiki.org/concept/38932552-111f-4a4e-a46a-4ed1d7bdf9d5
+/compound/tree/pharmacology/count	uri=http://purl.obolibrary.org/obo/CHEBI_100
+/compound/tree/pharmacology/pages	uri=http://purl.obolibrary.org/obo/CHEBI_100
+/tree
+/tree	root=enzyme
+/tree	root=chembl
+/tree	root=chebi
+/tree	root=go
+/tree/children	uri=http://purl.uniprot.org/enzyme/6.2.-.-
+/tree/parents	uri=http://purl.uniprot.org/enzyme/6.2.-.-
+/getConceptDescription	uuid=8e3a87ae-345d-4c25-bd7a-5b3221c6e3fa
+/search/byTag	q=aspirin&uuid=07a84994-e464-4bbf-812a-a4b96fa3d197
+/search/freetext	q=aspirin
+/sources
+/disease	uri=http://linkedlifedata.com/resource/umls/id/C0004238
+/disease/assoc/byDisease	uri=http://linkedlifedata.com/resource/umls/id/C0004238
+/disease/assoc/byDisease/count	uri=http://linkedlifedata.com/resource/umls/id/C0004238
+/disease/assoc/byTarget	uri=http://purl.uniprot.org/uniprot/Q9Y5Y9
+/disease/assoc/byTarget/count	uri=http://purl.uniprot.org/uniprot/Q9Y5Y9
+/disease/batch	uri_list=http://linkedlifedata.com/resource/umls/id/C0004238|http://linkedlifedata.com/resource/umls/id/C0018794
+/disease/byTarget	uri=http://purl.uniprot.org/uniprot/Q9Y5Y9
+/disease/byTarget/count	uri=http://purl.uniprot.org/uniprot/Q9Y5Y9
+/disease/getTargets	uri=http://linkedlifedata.com/resource/umls/id/C0004238
+/disease/getTargets/count	uri=http://linkedlifedata.com/resource/umls/id/C0004238
+/mapUri	Uri=http://linkedlifedata.com/resource/umls/id/C0004238
+/pathway	uri=http://identifiers.org/wikipathways/WP1019
+/pathway/getCompounds	uri=http://identifiers.org/wikipathways/WP1002
+/pathway/getReferences	uri=http://identifiers.org/wikipathways/WP1015
+/pathway/getTargets	uri=http://identifiers.org/wikipathways/WP1008
+/pathways
+/pathways/byCompound	uri=http://www.conceptwiki.org/concept/83931753-9e3f-4e90-b104-e3bcd0b4d833
+/pathways/byCompound/count	uri=http://www.conceptwiki.org/concept/83931753-9e3f-4e90-b104-e3bcd0b4d833
+/pathways/byReference	uri=http://identifiers.org/pubmed/14769483
+/pathways/byReference/count	uri=http://identifiers.org/pubmed/14769483
+/pathways/byTarget	uri=http://identifiers.org/ncbigene/282478
+/pathways/byTarget/count	uri=http://identifiers.org/ncbigene/282478
+/pathways/count
+/pathways/organisms
+/pharmacology/filters/activities	activity_unit=centimeter
+/pharmacology/filters/activities/count	activity_unit=centimeter
+/pharmacology/filters/units/count
+/pharmacology/filters/units/pages
+/target	uri=http://www.conceptwiki.org/concept/00059958-a045-4581-9dc5-e5a08bb0c291
+/target/batch	uri_list=http://www.conceptwiki.org/concept/00059958-a045-4581-9dc5-e5a08bb0c291|http://www.conceptwiki.org/concept/7b21c06f-0343-4fcc-ab0f-a74ffe871ade
+/target/classifications	uri=http://purl.uniprot.org/uniprot/P14756
+/target/classifications	uri=http://purl.uniprot.org/uniprot/P14756&tree=chembl
+/target/classifications	uri=http://purl.uniprot.org/uniprot/P14756&tree=enzyme
+/target/classifications	uri=http://purl.uniprot.org/uniprot/P14756&tree=go
+/target/classificationsForCompounds	uri=http://purl.uniprot.org/uniprot/P00918
+/target/members/count	uri=http://purl.uniprot.org/enzyme/6.2.-.-
+/target/members/pages	uri=http://purl.uniprot.org/enzyme/6.2.-.-
+/target/pharmacology/count	uri=http://www.conceptwiki.org/concept/00059958-a045-4581-9dc5-e5a08bb0c291
+/target/pharmacology/pages	uri=http://www.conceptwiki.org/concept/00059958-a045-4581-9dc5-e5a08bb0c291
+/target/tree/pharmacology/count	uri=http://purl.uniprot.org/enzyme/6.2.-.-
+/target/tree/pharmacology/pages	uri=http://purl.uniprot.org/enzyme/6.2.-.-
+/target/types
+/tissue	uri=ftp://ftp.nextprot.org/pub/current_release/controlled_vocabularies/caloha.obo#TS-0171
+/tissue/batch	uri_list=ftp://ftp.nextprot.org/pub/current_release/controlled_vocabularies/caloha.obo#TS-0171|ftp://ftp.nextprot.org/pub/current_release/controlled_vocabularies/caloha.obo#TS-0173
+/tissue/byProtein	uri=http://purl.uniprot.org/uniprot/P55795
+/tissue/byProtein/count	uri=http://purl.uniprot.org/uniprot/P55795
+/tissue/getProteins	uri=ftp://ftp.nextprot.org/pub/current_release/controlled_vocabularies/caloha.obo#TS-0016
+/tissue/getProteins/count	uri=ftp://ftp.nextprot.org/pub/current_release/controlled_vocabularies/caloha.obo#TS-0016
+/patent	uri=http://rdf.ebi.ac.uk/resource/surechembl/patent/EP-1339685-A2
+/patent/byCompound	uri=http://rdf.ebi.ac.uk/resource/surechembl/molecule/SCHEMBL1325
+/patent/byCompound/count	uri=http://rdf.ebi.ac.uk/resource/surechembl/molecule/SCHEMBL1325
+/patent/byDisease	uri=http://rdf.ebi.ac.uk/resource/surechembl/indication/D002561
+/patent/byDisease/count	uri=http://rdf.ebi.ac.uk/resource/surechembl/indication/D002561
+/patent/byTarget	uri=http://rdf.ebi.ac.uk/resource/surechembl/target/HMGCS1
+/patent/byTarget/count	uri=http://rdf.ebi.ac.uk/resource/surechembl/target/HMGCS1
+/patent/entities/count	uri=http://rdf.ebi.ac.uk/resource/surechembl/patent/EP-1339685-A2
+/patent/entities/pages	uri=http://rdf.ebi.ac.uk/resource/surechembl/patent/EP-1339685-A2
+/pathway/getInteractions	uri=http://identifiers.org/wikipathways/WP1015
+/pathways/interactions/byEntity	uri=http://identifiers.org/ensembl/ENSBTAG00000004037
+/pathways/interactions/byEntity/count	uri=http://identifiers.org/ensembl/ENSBTAG00000004037
