@@ -1,0 +1,15 @@
+377,/target/pharmacology/pages?uri=http%3A%2F%2Fwww.uniprot.org%2Funiprot%2FP56470&_pageSize=all&_pageSize=all
+382,/target/tree/pharmacology/pages?uri=http%3A%2F%2Fpurl.uniprot.org%2Fenzyme%2F6.2.-.-
+383,/target?uri=http%3A%2F%2Fpurl.uniprot.org%2Funiprot%2FQ9Y5Y9
+384,/disease/assoc/byTarget?uri=http%3A%2F%2Fpurl.uniprot.org%2Funiprot%2FQ9Y5Y9
+385,/pathways/byTarget?uri=http%3A%2F%2Fidentifiers.org%2Fncbigene%2F282478
+385,/pathways/interactions/byEntity?uri=http%3A%2F%2Fidentifiers.org%2Fensembl%2FENSBTAG00000004037
+386,/pharmacology/filters/activities?activity_unit=centimeter
+386,/pharmacology/filters/activities/count?activity_unit=centimeter
+386,/pharmacology/filters/units/pages
+387,/tree
+387,/tree?root=enzyme
+388,/compound/members/pages?uri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCHEBI_24431
+388,/compound/tree/pharmacology/pages?uri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCHEBI_100
+390,/target/pharmacology/pages?_format=json&uri=http%3A%2F%2Fwww.conceptwiki.org%2Fconcept%2Fd2a9dbd1-78fb-4f2f-adba-9be028a15bd1&_page=1&_pageSize=100
+390,/target/pharmacology/count?uri=http%3A%2F%2Fwww.conceptwiki.org%2Fconcept%2Fd2a9dbd1-78fb-4f2f-adba-9be028a15bd1&_format=json
