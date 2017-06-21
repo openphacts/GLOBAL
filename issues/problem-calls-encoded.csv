@@ -3,8 +3,8 @@ Issue,Status,Call
 382,open,/target/tree/pharmacology/pages?uri=http%3A%2F%2Fpurl.uniprot.org%2Fenzyme%2F6.2.-.-
 383,closed,/target?uri=http%3A%2F%2Fpurl.uniprot.org%2Funiprot%2FQ9Y5Y9
 384,open,/disease/assoc/byTarget?uri=http%3A%2F%2Fpurl.uniprot.org%2Funiprot%2FQ9Y5Y9
-385a,open,/pathways/byTarget?uri=http%3A%2F%2Fidentifiers.org%2Fncbigene%2F282478
-385b,open,/pathways/interactions/byEntity?uri=http%3A%2F%2Fidentifiers.org%2Fensembl%2FENSBTAG00000004037
+385a,closed,/pathways/byTarget?uri=http%3A%2F%2Fidentifiers.org%2Fncbigene%2F291
+385b,closed,/pathways/interactions/byEntity?uri=http%3A%2F%2Fidentifiers.org%2Fensembl%2FENSBTAG00000004037
 386a,open,/pharmacology/filters/activities?activity_unit=centimeter
 386b,closed,/pharmacology/filters/activities/count?activity_unit=centimeter
 386c,open,/pharmacology/filters/units/pages
