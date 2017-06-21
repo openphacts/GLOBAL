@@ -75,7 +75,8 @@ do
    issue="${sp[0]}"
    status="${sp[1]}"
    call="${sp[2]}"
-   if [ $status != 'closed' ] ; then
+   ## Skip closed issues and skip header (first) line of issues file.
+   if [ $status != 'closed' ] && [ $status != 'Status' ] ; then
      testit $call $issue
    fi
 done < $problems_file
