@@ -48,7 +48,9 @@ sparqlurl2=`urlencode "http://alpha.openphacts.org:8890/sparql"`
 
 ## Where to save results:
 
-outdir="${HOME}/gh/openphacts/GLOBAL/issues/out"
+## name subdir based on current UTC time, e.g., 2017-06-21-2359
+timestamp=`date -u "+%Y-%m-%d-%H%M"`
+outdir="${HOME}/gh/openphacts/GLOBAL/issues/out/${timestamp}"
 mkdir -p "$outdir"
 
 function testit() {
