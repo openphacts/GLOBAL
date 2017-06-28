@@ -12,7 +12,8 @@
 ## Issues obtained from GitHub Issues here:
 ##      https://github.com/openphacts/GLOBAL/issues
 
-problems_file="$HOME/gh/openphacts/GLOBAL/issues/problem-calls-encoded.csv"
+default_problems_file="$HOME/gh/openphacts/GLOBAL/issues/problem-calls-encoded.csv"
+problems_file="${1:-$default_problems_file}"
 
 urlencode() {
     # urlencode <string>
@@ -38,13 +39,38 @@ urldecode() {
     printf '%b' "${url_encoded//%/\\x}"
 }
 
-## LDA, IMS, and SPARQL endpoints
+## LDA, IMS, SPARQL, IRS endpoints
 
-apiurl="http://localhost:3002"
-imsurl1=`urlencode "http://beta.openphacts.org:3004"`
-sparqlurl1=`urlencode "http://beta.openphacts.org:3003/sparql"`
-imsurl2=`urlencode "http://alpha.openphacts.org:3004"`
-sparqlurl2=`urlencode "http://alpha.openphacts.org:8890/sparql"`
+declare -a ldas=(
+    "http://localhost:3002"
+#    "http://alpha.openphacts.org:3002"
+#    "http://beta.openphacts.org:3002"
+)
+
+declare -a imss=(
+    "http://beta.openphacts.org:3004"
+    "http://alpha.openphacts.org:3004"
+)
+
+declare -a sparqls=(
+    "http://beta.openphacts.org:3003/sparql"
+    "http://alpha.openphacts.org:8890/sparql"
+)
+
+declare -a irss=(
+    "http://alpha.openphacts.org:8839"
+)
+
+nldas=${#ldas[@]}
+nimss=${#imss[@]}
+nsparqls=${#sparqls[@]}
+nirss=${#irss[@]}
+
+#apiurl="http://localhost:3002"
+#imsurl1=`urlencode "http://beta.openphacts.org:3004"`
+#sparqlurl1=`urlencode "http://beta.openphacts.org:3003/sparql"`
+#imsurl2=`urlencode "http://alpha.openphacts.org:3004"`
+#sparqlurl2=`urlencode "http://alpha.openphacts.org:8890/sparql"`
 
 ## Where to save results:
 
@@ -53,22 +79,68 @@ timestamp=`date -u "+%Y-%m-%d-%H%M"`
 outdir="${HOME}/gh/openphacts/GLOBAL/issues/out/${timestamp}"
 mkdir -p "$outdir"
 
-function testit() {
-    call=$1
-    issue_number=$2
-    call11="${apiurl}${call}&_imsendpoint=${imsurl1}&_sparqlendpoint=${sparqlurl1}"
-    call12="${apiurl}${call}&_imsendpoint=${imsurl1}&_sparqlendpoint=${sparqlurl2}"
-    call21="${apiurl}${call}&_imsendpoint=${imsurl2}&_sparqlendpoint=${sparqlurl1}"
-    call22="${apiurl}${call}&_imsendpoint=${imsurl2}&_sparqlendpoint=${sparqlurl2}"
-    echo $call11
-    curl "$call11" >"${outdir}/${issue_number}_11"
-    echo $call12
-    curl "$call12" >"${outdir}/${issue_number}_12"
-    echo $call21
-    curl "$call21" >"${outdir}/${issue_number}_21"
-    echo $call22
-    curl "$call22" >"${outdir}/${issue_number}_22"
+function mkCommand() {
+    coreCmd="$1"
+    apiUrl="${2}"
+    imsUrl=`urlencode "$3"`
+    sparqlUrl=`urlencode "$4"`
+    irsUrl=`urlencode "$5"`
+    command="${apiUrl}${coreCmd}&_imsendpoint=${imsUrl}&_sparqlendpoint=${sparqlUrl}"
+#    command="${apiUrl}${apiCall}&_imsendpoint=${imsUrl}&_sparqlendpoint=${sparqlUrl}&_irsendpoint=${irsUrl}"
+    echo "$command"
 }
+
+function test1() {
+    coreCmd="$1"
+    issue_number=$2
+    i=$3
+    j=$4
+    k=$5
+
+    apiUrl="${ldas[$i]}"
+    imsUrl="${imss[$j]}"
+    sparqlUrl="${sparqls[$k]}"
+    combo_code="$i$j$k"
+#    irsUrl="$6"
+    irsUrl="http://alpha.openphacts.org:8839"
+
+    cmdUrl=`mkCommand "${coreCmd}" "${apiUrl}" "${imsUrl}" "${sparqlUrl}" "${irsUrl}"`
+#    echo $cmdline
+    echo $coreCmd
+    echo "${outdir}/${issue_number}_${combo_code}"
+    curl "$cmdUrl" >"${outdir}/${issue_number}_${combo_code}"
+}
+
+function testCombos() {
+    coreCmd=$1
+    issue_number=$2
+    for (( i=0 ; i<$nldas ; i++ )) ; do
+        for (( j=0 ; j<$nimss ; j++ )) ; do
+            for (( k=0 ; k<$nsparqls ; k++ )) ; do
+#                test1 $coreCmd $issue_number ${ldas[$i]} ${imss[$j]} ${sparqls[$k]}
+                test1 $coreCmd $issue_number $i $j $k
+            done
+        done
+    done
+}
+
+#    call11="${apiurl}${call}&_imsendpoint=${imsurl1}&_sparqlendpoint=${sparqlurl1}"
+#    call12="${apiurl}${call}&_imsendpoint=${imsurl1}&_sparqlendpoint=${sparqlurl2}"
+#    call21="${apiurl}${call}&_imsendpoint=${imsurl2}&_sparqlendpoint=${sparqlurl1}"
+#    call22="${apiurl}${call}&_imsendpoint=${imsurl2}&_sparqlendpoint=${sparqlurl2}"
+#    call11=`mkCommand "${call}" "${apiurl}" "${imsurl1}" "${sparqlurl1}"`
+#    call12="${apiurl}${call}&_imsendpoint=${imsurl1}&_sparqlendpoint=${sparqlurl2}"
+#    call21="${apiurl}${call}&_imsendpoint=${imsurl2}&_sparqlendpoint=${sparqlurl1}"
+#    call22="${apiurl}${call}&_imsendpoint=${imsurl2}&_sparqlendpoint=${sparqlurl2}"
+#    call11=`mkCommand "${call}" "${apiurl}" "${imsurl1}" "${sparqlurl1}"`
+#    echo $call11
+#    curl "$call11" >"${outdir}/${issue_number}_11"
+#    echo $call12
+#    curl "$call12" >"${outdir}/${issue_number}_12"
+#    echo $call21
+#    curl "$call21" >"${outdir}/${issue_number}_21"
+#    echo $call22
+#    curl "$call22" >"${outdir}/${issue_number}_22"
 
 while read line
 do
@@ -79,6 +151,6 @@ do
    call="${sp[2]}"
    ## Skip closed issues and skip header (first) line of issues file.
    if [ $status != 'closed' ] && [ $status != 'Status' ] ; then
-     testit $call $issue
+     testCombos $call $issue
    fi
 done < $problems_file
