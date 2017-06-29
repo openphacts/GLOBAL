@@ -7,11 +7,11 @@ Issue,Status,Call
 384,open,/disease/assoc/byTarget?uri=http%3A%2F%2Fpurl.uniprot.org%2Funiprot%2FQ9Y5Y9
 385a,closed,/pathways/byTarget?uri=http%3A%2F%2Fidentifiers.org%2Fncbigene%2F291
 385b,closed,/pathways/interactions/byEntity?uri=http%3A%2F%2Fidentifiers.org%2Fensembl%2FENSBTAG00000004037
-386a,open,/pharmacology/filters/activities?activity_unit=centimeter
+386a,closed,/pharmacology/filters/activities?activity_unit=centimeter
 386b,closed,/pharmacology/filters/activities/count?activity_unit=centimeter
-386c,open,/pharmacology/filters/units/pages
-387a,open,/tree
-387b,open,/tree?root=enzyme
+386c,closed,/pharmacology/filters/units/pages
+387a,closed,/tree
+387b,closed,/tree?root=enzyme
 388a,closed,/compound/members/pages?uri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCHEBI_24431
 388b,closed,/compound/tree/pharmacology/pages?uri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCHEBI_100
 390a,closed,/target/pharmacology/pages?_format=json&uri=http%3A%2F%2Fwww.conceptwiki.org%2Fconcept%2Fd2a9dbd1-78fb-4f2f-adba-9be028a15bd1&_page=1&_pageSize=100
