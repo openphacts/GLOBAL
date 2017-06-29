@@ -49,7 +49,7 @@ e47,closed,/pathway/getTargets?_format=ttl&uri=http%3A%2F%2Fidentifiers.org%2Fwi
 e48,closed,/pathway?_format=ttl&uri=http%3A%2F%2Fidentifiers.org%2Fwikipathways%2FWP1019
 e49,closed,/pathways?_pageSize=5&_page=1&_format=ttl
 e50,closed,/pathways/count?_format=ttl
-e51,open,/pathways/byTarget/count?_format=ttl&uri=http%3A%2F%2Fidentifiers.org%2Fncbigene%2F282478
+e51,open,/pathways/byTarget/count?_format=ttl&uri=http%3A%2F%2Fidentifiers.org%2Fncbigene%2F348
 e52,closed,/pathways/byTarget?_pageSize=5&_page=1&_format=ttl&uri=http%3A%2F%2Fidentifiers.org%2Fncbigene%2F506
 e53,closed,/pathways/byCompound?_pageSize=5&_page=1&_format=ttl&uri=http%3A%2F%2Fwww.conceptwiki.org%2Fconcept%2F83931753-9e3f-4e90-b104-e3bcd0b4d833
 e54,closed,/sources?_format=ttl
