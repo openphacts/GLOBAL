@@ -12,6 +12,7 @@ Issue,Status,Call
 386c,closed,/pharmacology/filters/units/pages
 387a,closed,/tree
 387b,closed,/tree?root=enzyme
+387c,open,/tree?root=chembl
 388a,closed,/compound/members/pages?uri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCHEBI_24431
 388b,closed,/compound/tree/pharmacology/pages?uri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCHEBI_100
 390a,closed,/target/pharmacology/pages?_format=json&uri=http%3A%2F%2Fwww.conceptwiki.org%2Fconcept%2Fd2a9dbd1-78fb-4f2f-adba-9be028a15bd1&_page=1&_pageSize=100
