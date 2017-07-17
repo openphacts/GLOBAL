@@ -2,7 +2,7 @@ Issue,Status,Call
 376a,open,/pathways/interactions/byEntity/count?uri=http%3A%2F%2Fwww.chemspider.com%2FChemical-Structure.392413
 376b,open,/pathways/interactions/byEntity/count?uri=http%3A%2F%2Fwww.hmdb.ca%2Fmetabolites%2FHMDB01206
 377,closed,/target/pharmacology/pages?uri=http%3A%2F%2Fwww.uniprot.org%2Funiprot%2FP56470&_pageSize=all&_pageSize=all
-382,open,/target/tree/pharmacology/pages?uri=http%3A%2F%2Fpurl.uniprot.org%2Fenzyme%2F6.2.-.-
+382,closed,/target/tree/pharmacology/pages?uri=http%3A%2F%2Fpurl.uniprot.org%2Fenzyme%2F6.2.-.-
 383,closed,/target?uri=http%3A%2F%2Fpurl.uniprot.org%2Funiprot%2FQ9Y5Y9
 384,closed,/disease/assoc/byTarget?uri=http%3A%2F%2Fpurl.uniprot.org%2Funiprot%2FQ9Y5Y9
 385a,closed,/pathways/byTarget?uri=http%3A%2F%2Fidentifiers.org%2Fncbigene%2F291
