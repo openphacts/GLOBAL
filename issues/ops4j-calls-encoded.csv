@@ -3,7 +3,7 @@ e1,closed,/pharmacology/filters/activities?_pageSize=5&_page=1&_format=ttl
 e2,closed,/pharmacology/filters/activities/count?_format=ttl
 e3,closed,/pharmacology/filters/units/IC50?_format=ttl
 e4,closed,/pharmacology/filters/units?_pageSize=5&_page=1&_format=ttl
-e5,close,/pharmacology/filters/count_units?_format=ttl
+e5,closed,/pharmacology/filters/count_units?_format=ttl
 e6,closed,/assay/members/pages?_pageSize=4&_page=1&_format=ttl&uri=http%3A%2F%2Fwww.bioassayontology.org%2Fbao%23BAO_0000219
 e7,closed,/assay?_format=ttl&uri=http%3A%2F%2Fopeninnovation.lilly.com%2Fbioassay%2329
 e8,closed,/assay/members/count?_format=ttl&uri=http%3A%2F%2Fwww.bioassayontology.org%2Fbao%23BAO_0000219
@@ -66,8 +66,7 @@ e64,closed,/target/tree/pharmacology/pages?_pageSize=5&_page=1&_format=ttl&uri=h
 e65,closed,/target/classificationsForCompounds?_format=ttl&uri=http%3A%2F%2Fpurl.uniprot.org%2Funiprot%2FP00918
 e66,closed,/target/members/pages?_pageSize=5&_page=1&_format=ttl&uri=http%3A%2F%2Fpurl.uniprot.org%2Fenzyme%2F6.2.-.-
 e67,closed,/target/pharmacology/pages?_pageSize=5&_page=1&_format=ttl&uri=http%3A%2F%2Fwww.conceptwiki.org%2Fconcept%2F00059958-a045-4581-9dc5-e5a08bb0c291
-e68,closed,/target/tree/pharmacology/count?_format=ttl&uri=http%3A%2F%2Fpurl.uniprot.org%2Fenzyme%2F6.2
-.-.-
+e68,closed,/target/tree/pharmacology/count?_format=ttl&uri=http%3A%2F%2Fpurl.uniprot.org%2Fenzyme%2F6.2.-.-
 e69,closed,/target?_format=ttl&uri=http%3A%2F%2Fwww.conceptwiki.org%2Fconcept%2F00059958-a045-4581-9dc5-e5a08bb0c291
 e70,closed,/target/types?_format=ttl
 e71,closed,/target/members/count?_format=ttl&uri=http%3A%2F%2Fpurl.uniprot.org%2Fenzyme%2F6.2.-.-
